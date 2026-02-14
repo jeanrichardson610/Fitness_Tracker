@@ -6,6 +6,8 @@ Track your fitness journey, set goals, log your meals and workouts, and get AI i
 
 💻 Live Demo: [[Fitlytics](https://fitness-tracker-lac-kappa.vercel.app/)]
 
+Note: Light and Dark mode functionality is not available at this time but there is a button that shows how where the user can change the appearance of the app. If you change your system settings from light to dark, the app will change accordingly. Also, the user at this time cannot update their heigh and weight in their profile
+
 🏆 Features
 
 ✅ Set daily fitness goals
