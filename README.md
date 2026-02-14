@@ -4,7 +4,7 @@ A full stack fitness tracking app with AI-powered food image analysis, built wit
 
 Track your fitness journey, set goals, log your meals and workouts, and get AI insights on the foods you eat by simply uploading images!
 
-💻 Live Demo: [[Insert Vercel Link](https://fitness-tracker-lac-kappa.vercel.app/)]
+💻 Live Demo: [[Fitlytics](https://fitness-tracker-lac-kappa.vercel.app/)]
 
 🏆 Features
 
