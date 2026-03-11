@@ -1,7 +1,7 @@
 # 🚀 Fitlytics | AI-Powered Fitness Tracker
 
 <p align="center">
-  <img src="./client/assets/fitlytics.png" width="900"/>
+  <img src="./client/assets/Fitlytics.png" width="900"/>
 </p>
 
 <h3 align="center">Fitlytics | AI-Powered Fitness Tracker</h3>
