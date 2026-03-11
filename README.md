@@ -1,34 +1,143 @@
-🚀 AI-Powered Fitness Tracker
+# 🚀 Fitlytics | AI-Powered Fitness Tracker
 
-A full stack fitness tracking app with AI-powered food image analysis, built with React and Strapi, styled with Tailwind CSS, and fully deployable online for free.
+<p align="center">
+  <img src="./client/assets/fitlytics.png" width="900"/>
+</p>
 
-Track your fitness journey, set goals, log your meals and workouts, and get AI insights on the foods you eat by simply uploading images!
+<h3 align="center">Fitlytics | AI-Powered Fitness Tracker</h3>
 
-💻 Live Demo: [[Fitlytics](https://fitness-tracker-lac-kappa.vercel.app/)]
+Track your fitness journey, set goals, log meals and workouts, and get **AI-powered insights** on the foods you eat by simply uploading images. Fully deployable online for free.
 
-Note: Light and Dark mode functionality is not available at this time but there is a button in the sidebar where the user could change the appearance of the app. If you change your system settings from light to dark, the app will change accordingly. Also, the user at this time cannot update their heigh and weight in their profile
+---
 
-🏆 Features
+# 🎥 Demo
 
-✅ Set daily fitness goals
+<p align="center">
+  <img src="./client/assets/demo.gif" width="900"/>
+</p>
 
-✅ Track food intake (calories consumed)
+---
 
-✅ Track fitness activities (calories burned)
+# 📌 Problem
 
-✅ User authentication (Sign up / Sign in)
+Many fitness apps track workouts or food intake, but **users lack personalized AI-powered analysis** of the foods they eat. Additionally, integrating food tracking, calorie calculation, and AI insights usually requires multiple apps or manual input, making the process slow and inconvenient.
 
-✅ Update user profile data
+---
 
-✅ AI-powered food tracking via image uploads
+# ✅ Solution
 
-✅ Food image analysis using Google Gemini AI
+Fitlytics combines a **React frontend**, **Strapi backend**, and **Google Gemini AI** to provide a full-stack, AI-enhanced fitness tracker. Users can:
 
-✅ Free online deployment (Frontend + Backend)
+- Set daily fitness goals  
+- Track food intake and calorie consumption  
+- Log fitness activities and calories burned  
+- Upload food images to get AI-based nutritional insights  
+
+All data is persistently stored via Strapi and can be accessed and managed through the dashboard, providing **a seamless full-stack experience**.
+
+---
+
+# 🧑‍💻 Technologies Used
 
 | Layer          | Technology                                |
 | -------------- | ----------------------------------------- |
 | Frontend       | React JS, Tailwind CSS                    |
 | Backend        | Strapi (Headless CMS)                     |
 | AI Integration | Google Gemini AI                          |
-| Deployment     | Vercel (Frontend), Strapi Cloud (Backend) |
+| Deployment     | Vercel (Frontend), Strapi Cloud (Backend)|
+
+---
+
+# 🔥 Key Features
+
+- ✅ Set daily fitness goals  
+- ✅ Track food intake (calories consumed)  
+- ✅ Track fitness activities (calories burned)  
+- ✅ User authentication (Sign up / Sign in)  
+- ✅ Update user profile data  
+- ✅ AI-powered food tracking via image uploads  
+- ✅ Food image analysis using Google Gemini AI  
+- ✅ Free online deployment (Frontend + Backend)
+
+---
+
+# 🧠 Technical Decisions
+
+### Why React + Tailwind CSS?
+
+React provides a **component-based architecture** for building the dynamic dashboard, while Tailwind CSS enables **rapid styling and responsive design**.
+
+### Why Strapi?
+
+Strapi offers a **headless CMS backend**, allowing flexible data management, secure authentication, and scalable API endpoints for storing user and fitness data.
+
+### Why Google Gemini AI?
+
+Google Gemini powers the **food image analysis**, providing accurate calorie and nutrient estimation from uploaded images, giving users actionable insights.
+
+### Deployment Decisions
+
+Frontend is deployed on **Vercel** for fast, scalable hosting, and backend on **Strapi Cloud** to handle API requests and persistent storage.
+
+---
+
+# 📦 Core Modules
+
+### Frontend
+
+- Dashboard & Navigation
+- Profile Management
+- Food and Fitness Tracking
+- AI Image Upload and Analysis
+
+### Backend
+
+- User Authentication & Management
+- Fitness Data Storage
+- Food Tracking API
+- AI Integration Layer
+
+---
+
+# 🎯 Learning Outcomes
+
+Through building Fitlytics, I:
+
+- Developed a **full-stack React + Strapi application**  
+- Integrated **AI model APIs** for real-time food analysis  
+- Built **user authentication and profile management systems**  
+- Implemented **responsive UI with Tailwind CSS**  
+- Managed **backend data storage and API endpoints**  
+- Learned deployment workflows for **frontend and backend services**
+
+---
+
+# 🚀 Running the Project Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/fitlytics.git
+
+- Navigate into the project
+cd fitlytics
+
+- Install frontend dependencies:
+cd frontend
+npm install
+
+- Start frontend
+npm run dev
+
+- Install backend dependencies:
+cd ../backend
+npm install
+
+- Start Strapi backend:
+npm run develop
+
+- Frontend will run at:
+http://localhost:5173
+
+- Backend (Strapi) will run at:
+http://localhost:1337
